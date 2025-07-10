@@ -15,3 +15,11 @@ class BooksUpdateData(BaseModel):
     genre: str
     language: str
     published_date: str
+
+class CreateUser(BaseModel):
+    user_name = str
+    password = str
+
+class UserLogin(BaseModel):
+    user_name : str
+    password : str
