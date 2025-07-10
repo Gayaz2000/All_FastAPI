@@ -8,5 +8,6 @@ dependencies = [
     "asyncpg>=0.30.0",
     "fastapi[standard]>=0.115.14",
     "ipykernel>=6.29.5",
+    "pydantic-settings>=2.10.1",
     "sqlmodel>=0.0.24",
 ]

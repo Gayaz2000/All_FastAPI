@@ -2,4 +2,6 @@ fastapi
 fastapi[standard]
 asyncpg
 sqlmodel
+database
+pydantic_settings
 #ipykernel
